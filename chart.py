@@ -36,5 +36,5 @@ plt.xlabel('Customer Segment', fontsize=14)
 plt.ylabel('Purchase Amount ($)', fontsize=14)
 
 # Save the plot as PNG with exact size
-plt.savefig('chart.png', dpi=64, bbox_inches='tight')
+plt.savefig('chart.png', dpi=64)
 plt.close()
